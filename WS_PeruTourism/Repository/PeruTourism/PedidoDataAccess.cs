@@ -114,10 +114,10 @@ namespace WS_PeruTourism.Repository.PeruTourism
                 }
 
             }
-            catch
+            catch(Exception e)
             {
 
-
+                resultado.MessageException = e.ToString();
 
             }
 
