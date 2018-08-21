@@ -43,7 +43,7 @@ namespace WS_PeruTourism
 
             PedidoRS Response = _objPeruTourism.InsertaPedidoCliente(objFormPedido);
 
-            if (Response.MessageException != null) {
+            if (Response.MessageException == null) {
 
                 Response.Message = "Se registro el pedido";
             }

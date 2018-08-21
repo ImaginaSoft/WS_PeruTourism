@@ -123,11 +123,7 @@ namespace WS_PeruTourism.Repository.PeruTourism
 
             return resultado;
 
-
-
         }
-
-
 
     }
 }
